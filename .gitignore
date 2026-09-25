@@ -1,0 +1,112 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Scraped / Generated Data
+# ==============================
+
+data/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.xlsx
+
+# Keep folder structure if needed
+!data/.gitkeep
+
+# ==============================
+# Amazon Browser Profile
+# ==============================
+
+amazon_browser_profile/
+playwright_profile/
+browser_profile/
+
+# ==============================
+# Debug / Temporary Files
+# ==============================
+
+amazon_debug.html
+debug.html
+*.log
+*.tmp
+*.temp
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# ==============================
+# ML Models
+# ==============================
+
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+models/
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Build / Distribution
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Python tooling
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
