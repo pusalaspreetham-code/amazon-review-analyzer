@@ -24,13 +24,6 @@ ENV/
 # Scraped / Generated Data
 # ==============================
 
-data/
-*.csv
-*.tsv
-*.json
-*.parquet
-*.xlsx
-
 # Keep folder structure if needed
 !data/.gitkeep
 
