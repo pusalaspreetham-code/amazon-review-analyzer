@@ -134,28 +134,32 @@ The historical Amazon reviews are not ground-truth sentiment labels unless indep
 The application code is organized into the following main areas:
 
 ```text
-amazon-review-analyzer/
-├── amazon_purchase_advisor/
-│   ├── advisor/
-│   │   ├── config.py
-│   │   ├── data.py
-│   │   ├── insights.py
-│   │   ├── pipeline.py
-│   │   ├── scoring.py
-│   │   ├── scrap.py
-│   │   ├── scrape_worker.py
-│   │   ├── scraper_service.py
-│   │   ├── sentiment.py
-│   │   └── ui.py
-│   ├── app.py
-│   ├── login_once.py
-│   ├── requirements.txt
-│   └── README.md
-│
-└── data_prepocessing/
-    ├── amazon_sentiment_prediction.ipynb
-    ├── sentiment_preprocessing.ipynb
-    └── prepocessing.ipynb
+└── pusalaspreetham-code-amazon-review-analyzer/
+    ├── README.md
+    ├── amazon_purchase_advisor/
+    │   ├── README.md
+    │   ├── app.py
+    │   ├── login_once.py
+    │   ├── requirements.txt
+    │   └── advisor/
+    │       ├── __init__.py
+    │       ├── config.py
+    │       ├── data.py
+    │       ├── insights.py
+    │       ├── pipeline.py
+    │       ├── scoring.py
+    │       ├── scrap.py
+    │       ├── scrape_worker.py
+    │       ├── scraper_service.py
+    │       ├── sentiment.py
+    │       └── ui.py
+    ├── data_prepocessing/
+    │   └── prepocessing.ipynb
+    └── scrapper/
+        └── amazon-review-classification/
+            └── scrapper/
+                ├── links_extraction.py
+                └── scrap.py
 ```
 
 Notebook names and locations should be checked against the current repository. The trained model file and any required supporting files must be placed at the paths configured by the application.
